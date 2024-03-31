@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Memowy Cawds</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>Memowy Cawds <3</h1>
+    <p>Match all the pairs for a suprise!</p>
+    <div class="grid-container">
+    </div>
+    <p>Score: <span class="score"></span></p>
+
+    <div class="actions">
+        <button onclick="restart()">Restart</button>
+        <button onclick="showWinMessage()">Skip the game if ya a want smh</button>
+    </div>
+    <audio id="mewsic" controls autoplay>
+      <source src="./Sounds/numbsong.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+    </audio>
+    <div id="win-message" style="display: none;">
+      <p>Congratulations, you did it! Now I have a question for ya.</p>
+      <button class="qButtons" onclick="restart()">Restart</button>
+      <button class="qButtons" onclick="goToQ()">Question? Hmm</button>
+  </div>
+</div>
+    <div id="q-message" style="display: none;">
+      <p>Will you be my girlfriend?</p>
+      <button  class="qButtons" onclick="showYay()">Yes</button>
+      <button class="qButtons" id="move-random" onclick="playSadMusic()">No</button>
+      <div class="actions">
+        <button onclick="restart()">Restart</button>
+    </div>
+    
+    </div>
+    <div id="yay-message" style="display: none;">
+      <!-- Trying to make a slideshow -(I gave up lmao) -->
+      <img src="images/love.gif" >
+        <h1>Hehehehe, I knew it! 😘</h1>
+      <!-- End of slideshow -->
+      <div class="actions">
+        <button onclick="restart()">Restart</button>
+    </div>
+    </div>
+  
+    <script src="index.js"></script>
+  </body>
+</html>
