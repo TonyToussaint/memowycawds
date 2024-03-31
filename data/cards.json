@@ -1,38 +1,38 @@
 [
     {
-        "image": "../images/image1.jpg",
+        "image": "images/image1.jpg",
         "name": "chili"
     },
     {
-        "image": "../images/image2.jpg",
+        "image": "images/image2.jpg",
         "name": "grapes"
     },
     {
-        "image": "../images/image3.jpg",
+        "image": "images/image3.jpg",
         "name": "lemon"
     },
     {
-        "image": "../images/image5.jpg",
+        "image": "images/image5.jpg",
         "name": "orange"
     },
     {
-        "image": "../images/image6.jpg",
+        "image": "images/image6.jpg",
         "name": "pineapple"
     },
     {
-        "image": "../images/image7.jpg",
+        "image": "images/image7.jpg",
         "name": "strawberry"
     },
     {
-        "image": "../images/gpizza.gif",
+        "image": "images/gpizza.gif",
         "name": "tomato"
     },
     {
-        "image": "../images/image9.jpg",
+        "image": "images/image9.jpg",
         "name": "watermelon"
     },
     {
-        "image": "../images/louis.gif",
+        "image": "images/louis.gif",
         "name": "cherries"
     }
 ]
